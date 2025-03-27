@@ -1,0 +1,110 @@
+/* Basic Reset */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #222222; /* Dark theme for hacker vibes */
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    z-index: 10;
+  }
+  
+  nav .dropdown-content li {
+    display: block;
+    padding: 10px;
+  }
+  
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+  }  
+  
+  section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Easter egg or hidden Rickroll styles */
+  #easter p {
+    color: #ffffff;
+  }
+
+  .hidden-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .hidden-link:hover {
+    text-decoration: underline;
+    color: #ff0000;
+  }
+
+  .projects {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .projects:hover {
+    text-decoration: underline;
+    color: #007BFF;
+  }
+
+  /* Optional: Hide the form visually but keep it in DOM */
+  form {
+    visibility: hidden;
+    height: 0;
+  }
