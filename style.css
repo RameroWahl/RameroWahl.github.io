@@ -10,7 +10,12 @@
     code, pre, h1, h2, nav {
       font-family: 'Fira Code', monospace;
     }
-  
+
+    h1, h2 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
   header {
     background-color: #222;
     color: #ffffff;
