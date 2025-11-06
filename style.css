@@ -11,9 +11,9 @@ code, pre, h1, h2, nav {
   font-family: 'Fira Code', monospace;
 }
 
-header {
-background-color: #ffffff;
-color: #2222222;
+header, title {
+background-color: #222;
+color: #ffffff;
 padding: 2rem;
 text-align: center;
 }
