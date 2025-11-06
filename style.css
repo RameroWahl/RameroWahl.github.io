@@ -79,6 +79,8 @@ nav .dropdown-content {
   top: 2.8rem;      
   padding-top: 4px; 
   z-index: 10;
+  margin-top: -4px;        
+  padding-top: 8px;  
 }
 
 nav .dropdown-content li {
