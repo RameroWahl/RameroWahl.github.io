@@ -1,150 +1,167 @@
-    /* Typography Setup */
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    
-    code, pre, h1, h2, nav {
-      font-family: 'Fira Code', monospace;
-    }
+/* Typography Setup */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
-    h1, h2 {
-      font-weight: 600;
-      letter-spacing: 0.5px;
-    }
+code, pre, h1, h2, nav {
+  font-family: 'Fira Code', monospace;
+}
 
-  header {
-    background-color: #222;
-    color: #ffffff;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  /* Navigation */
-    nav {
-      background-color: #1a1a1a;
-      padding: 10px 0;
-      text-align: center;
-    }
-    
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    nav li {
-      display: inline-block;
-      position: relative;
-      margin: 0 10px;
-    }
-    
-    nav li a {
-      font-family: "Fira Code", monospace;
-      font-size: 1rem;
-      color: #f4f4f4;
-      text-decoration: none;
-      padding: 10px 20px;
-      transition: color 0.3s ease;
-      position: relative;
-    }
-    
-    nav li a::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      bottom: 8px;
-      width: 0%;
-      height: 2px;
-      background-color: #007BFF;
-      transition: all 0.3s ease;
-      transform: translateX(-50%);
-    }
-    
-    nav li a:hover::after {
-      width: 100%;
-    }
-    
-    nav li a:hover {
-      color: #007BFF;
-    }
-    
-    nav .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #222;
-      min-width: 180px;
-      top: 50px;
-      border-radius: 4px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-      text-align: left;
-    }
-    
-    nav .dropdown-content li {
-      display: block;
-      padding: 10px 20px;
-    }
-    
-    nav .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  
-  section {
-    padding: 2rem;
-    background-color: #fff;
-    margin: 1rem auto;
-    max-width: 900px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #222;
-    color: #fff;
-    margin-top: 2rem;
-  }
-  
-  a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Easter egg or hidden Rickroll styles */
-  #easter p {
-    color: #ffffff;
-  }
+header {
+background-color: #222;
+color: #ffffff;
+padding: 2rem;
+text-align: center;
+}
 
-  .hidden-link {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .hidden-link:hover {
-    text-decoration: underline;
-    color: #ff0000;
-  }
+/* Navigation */
+nav {
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  text-align: center;
+}
 
-  .projects {
-    color: #333333;
-    text-decoration: none;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .projects:hover {
-    text-decoration: underline;
-    color: #007BFF;
-  }
+nav li {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
 
-  /* Optional: Hide the form visually but keep it in DOM */
-  form {
-    visibility: hidden;
-    height: 0;
-  }
+nav li a {
+  font-family: "Fira Code", monospace;
+  font-size: 1rem;
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+nav li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  width: 0%;
+  height: 2px;
+  background-color: #007BFF;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+nav li a:hover::after {
+  width: 100%;
+}
+
+nav li a:hover {
+  color: #007BFF;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  min-width: 180px;
+  top: 50px;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+nav .dropdown-content li {
+  display: block;
+  padding: 10px 20px;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Section Styling */
+section {
+  padding: 2.5rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+section + section {
+  margin-top: 3rem;
+}
+
+section:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Improve headings */
+h1, h2, h3 {
+  font-family: "Fira Code", monospace;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.2rem;
+  color: #222222;
+}
+
+/* Paragraph styling */
+p {
+  margin-bottom: 1.2rem;
+  color: #333333;
+}
+
+/* Lists */
+ul {
+  margin-left: 1.4rem;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+
+/* Easter egg or hidden Rickroll styles */
+#easter p {
+color: #ffffff;
+}
+
+.hidden-link {
+color: #ffffff;
+text-decoration: none;
+}
+
+.hidden-link:hover {
+text-decoration: underline;
+color: #ff0000;
+}
+
+.projects {
+color: #333333;
+text-decoration: none;
+}
+
+.projects:hover {
+text-decoration: underline;
+color: #007BFF;
+}
+
+/* Optional: Hide the form visually but keep it in DOM */
+form {
+visibility: hidden;
+height: 0;
+}
