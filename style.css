@@ -37,6 +37,10 @@ nav li {
   margin: 0 10px;
 }
 
+nav li.dropdown {
+  padding-bottom: 8px;
+}
+
 nav li a {
   font-family: "Fira Code", monospace;
   font-size: 1rem;
