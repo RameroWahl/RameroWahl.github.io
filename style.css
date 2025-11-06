@@ -12,14 +12,14 @@ code, pre, h1, h2, nav {
 }
 
 header {
-background-color: #222;
-color: #ffffff;
+background-color: #ffffff;
+color: #2222222;
 padding: 2rem;
 text-align: center;
 }
 
 header h1, header p {
-  color: #ffffff; /* or a softer gray like #eeeeee */
+  color: #000000; /* or a softer gray like #eeeeee */
   font-family: "Fira Code", monospace;
 }
 
