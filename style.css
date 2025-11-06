@@ -18,6 +18,11 @@ padding: 2rem;
 text-align: center;
 }
 
+header h1, header p {
+  color: #ffffff; /* or a softer gray like #eeeeee */
+  font-family: "Fira Code", monospace;
+}
+
 /* Navigation */
 nav {
   background-color: #1a1a1a;
