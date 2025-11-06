@@ -20,10 +20,16 @@ header {
 
 header h1,
 header p {
-  color: #ffffff !important;
+  color: #ffffff;
   font-family: "Fira Code", monospace;
   margin: 0;
   line-height: 1.4;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-top: 0.4rem;
 }
 
 /* Navigation */
