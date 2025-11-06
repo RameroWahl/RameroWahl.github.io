@@ -87,11 +87,10 @@ nav .dropdown-content li {
 }
 
 /* Hover + Focus-within Fix */
-nav .dropdown:hover .dropdown-content,
-nav .dropdown:focus-within .dropdown-content {
+nav li.dropdown:hover > .dropdown-content,
+nav li.dropdown > .dropdown-content:hover {
   display: block;
 }
-
 
 /* Section Styling */
 section {
