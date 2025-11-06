@@ -20,7 +20,7 @@ header {
 
 header h1,
 header p {
-  color: #ffffff;
+  color: #ffffff !important;
   font-family: "Fira Code", monospace;
   margin: 0;
   line-height: 1.4;
