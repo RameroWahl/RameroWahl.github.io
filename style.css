@@ -11,16 +11,19 @@ code, pre, h1, h2, nav {
   font-family: 'Fira Code', monospace;
 }
 
-header, title {
-background-color: #222;
-color: #ffffff;
-padding: 2rem;
-text-align: center;
+header {
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  padding: 2.5rem;
+  text-align: center;
+  border-bottom: 3px solid #007BFF;
 }
 
-header h1, header p {
-  color: #000000; /* or a softer gray like #eeeeee */
+header h1,
+header p {
+  color: #ffffff;
   font-family: "Fira Code", monospace;
+  margin: 0;
+  line-height: 1.4;
 }
 
 /* Navigation */
