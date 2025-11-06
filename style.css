@@ -164,14 +164,46 @@ text-decoration: underline;
 color: #ff0000;
 }
 
-.projects {
-color: #333333;
-text-decoration: none;
+/* Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
 }
 
-.projects:hover {
-text-decoration: underline;
-color: #007BFF;
+.project-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.10);
+}
+
+.project-card h3 {
+  font-family: "Fira Code", monospace;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 0.8rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.project-card a:hover {
+  color: #0056b3;
 }
 
 /* Optional: Hide the form visually but keep it in DOM */
