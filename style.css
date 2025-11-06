@@ -91,7 +91,7 @@ nav .dropdown-content {
   text-align: left;
   min-width: 180px;
   top: calc(100% - 1px);
-  padding-top: 0; /* Expand hover zone */
+  padding-top: 0;
   z-index: 10;
   padding-top: 0; 
 }
