@@ -18,20 +18,6 @@ header {
   border-bottom: 3px solid #007BFF;
 }
 
-header h1,
-header p {
-  color: #ffffff;
-  font-family: "Fira Code", monospace;
-  margin: 0;
-  line-height: 1.4;
-}
-
-header p {
-  font-size: 1rem;
-  opacity: 0.85;
-  margin-top: 0.4rem;
-}
-
 /* Navigation */
 nav {
   background-color: #1a1a1a;
@@ -130,6 +116,20 @@ h1, h2, h3 {
   letter-spacing: 0.5px;
   margin-bottom: 1.2rem;
   color: #222222;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  line-height: 1.4;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-top: 0.4rem;
 }
 
 /* Paragraph styling */
