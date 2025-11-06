@@ -67,15 +67,18 @@ nav li a:hover {
   color: #007BFF;
 }
 
+/* Dropdown Styling */
 nav .dropdown-content {
   display: none;
   position: absolute;
   background-color: #222;
-  min-width: 180px;
-  top: 50px;
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   text-align: left;
+  min-width: 180px;
+  top: 2.8rem;      
+  padding-top: 4px; 
+  z-index: 10;
 }
 
 nav .dropdown-content li {
@@ -83,9 +86,12 @@ nav .dropdown-content li {
   padding: 10px 20px;
 }
 
-nav .dropdown:hover .dropdown-content {
+/* Hover + Focus-within Fix */
+nav .dropdown:hover .dropdown-content,
+nav .dropdown:focus-within .dropdown-content {
   display: block;
 }
+
 
 /* Section Styling */
 section {
