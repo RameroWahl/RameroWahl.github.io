@@ -80,11 +80,9 @@ nav .dropdown-content {
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   text-align: left;
   min-width: 180px;
-  top: 2.8rem;      
-  padding-top: 4px; 
+  top: 100%;       /* Always directly below the parent */
+  padding-top: 8px; /* Expand hover zone */
   z-index: 10;
-  margin-top: -4px;        
-  padding-top: 8px;  
 }
 
 nav .dropdown-content li {
